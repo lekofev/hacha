@@ -1,0 +1,218 @@
+@charset "utf-8";
+/**
+* @description	Standard Layout
+* @author		Nombre_programador
+* @version		1.0
+*/
+
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+	
+}
+.clear_block:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+
+.logo{
+	width: 80px;
+	height: 30px;
+	float: left;
+	margin-left: 60px;
+	background-color: red;
+	margin-top: 12px;
+
+}
+
+.page{
+	width: 100%;
+}
+.cont_menu{
+	max-width: 960px;
+	margin: auto;	
+	height: 54px;
+
+}
+
+.menu{
+	width: 100%;
+	height: 54px;
+	background-color: #000000;
+}
+.menu_list li a{
+	float: left;
+	font-family: arial;
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 0 40px;
+	line-height: 4.5;
+}
+.menu_list li a:hover{
+	color: #F15A24;
+	text-decoration: underline;
+}
+
+.page_contenido{
+	max-width: 960px;
+	min-height: 600px;
+	background-color: #F2F2F2;
+	margin: auto;
+}
+
+
+.cont_banner{
+	width: 860px;
+	height: 320px;
+	background-color: green;
+	position: relative;
+	margin-bottom: 20px;
+}
+.banner_cycle, .banner_cycle_items {	
+	width: 860px;
+	height: 320px;
+}
+.flechas{
+	width: 80px;
+	height: 100px;
+	position: absolute;
+	background-color: #fff;
+	bottom: 20px;
+	display: block;
+}
+.flechas.flecha_l{
+	left: 20px;
+
+}
+.flechas.flecha_r{
+	right: 20px;
+
+}
+
+.cont_header{
+	max-width: 960px;
+	height: 138px;
+	background-color: red;
+	margin:auto;
+}
+.cont_pie_pagina{
+	height: 50px;
+	width: 100%;
+	background-color: #000000;	
+}
+
+.pie_pagina{
+	max-width: 960px;
+	height: 100%;
+	margin: auto;
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background-color: orange;
+}
+.works{
+	width: 100%;
+	min-height: 600px;
+	border-top: 2px dotted #CCCCCC;
+	margin-top: 40px;
+}
+.work{
+    float: left;
+    margin-bottom: 20px;    
+    width: 33%;
+}
+.work img{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.work h2{
+	margin-bottom: 10px;
+
+}
+.work h2 a{
+	font-size: 20px;
+	color: #3C566B;
+	text-decoration: none;
+}
+.work h2 a:hover{
+	text-decoration: underline;
+}
+.work p{
+	font-size: 12px;
+	line-height: 1.4;
+}
+.work .item{
+	width: 90%;
+	margin: auto;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
