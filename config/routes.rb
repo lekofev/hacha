@@ -3,6 +3,8 @@ Hacha::Application.routes.draw do
   # first created -> highest priority.
 
   root :to => "pages#index"
+  match 'proyecto' => 'pages#proyecto'
+  match 'nosotros' => 'pages#nosotros'
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

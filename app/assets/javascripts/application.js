@@ -12,8 +12,7 @@
 //
 //= require jquery-1.8.1.min
 //= require app.fb
-//= require jquery.scrollTo-1.4.3.1-min
-//= require TweenMax.min
 //= require cycle
+//= require jquery.roundabout.min
 //= require swfobject
 //= require init

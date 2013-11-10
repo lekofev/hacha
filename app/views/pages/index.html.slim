@@ -1,20 +1,50 @@
 #fb-root.fb_reset
-.page.clear_block
+.page.clear_block.proyectos
 	.cont_header
 		.header.max_w
+			a.logo(href="")
 
-	.menu
-		.cont_menu.max_w
+	.menu.clear_block
+		.cont_menu.max_w.clear_block
+			a.logo_menu(href="")
+
 			ul.menu_list
+				li.menu_items.menu_items_0
+					a(href="#") Proyectos
 				li.menu_items.menu_items_1
-					a(href="#") Menu 1
+					a(href="#") Nosotros
 				li.menu_items.menu_items_2
-					a(href="#") Menu 2
+					a(href="#") Contactenos
 
 
 	.page_contenido.max_w
 		.banner
-			| el banner	
+			a.btns.btn_flechas.btn_flecha_left(href="#")
+				= image_tag("flecha_l.png", alt:"")
+			a.btns.btn_flechas.btn_flecha_right(href="#")
+				= image_tag("flecha_r.png", alt:"")
+			ul.banner_animacion
+				li
+					a.img_link(href="") 
+						= image_tag("destacado.jpg", alt:"")
+					h3.img_titulo 
+						a.title_link(href="") Android apps on Google P
+				li
+					a.img_link(href="") 
+						= image_tag("destacado.jpg", alt:"")
+					h3.img_titulo 
+						a.title_link(href="") Android apps on Google P
+				li
+					a.img_link(href="") 
+						= image_tag("destacado.jpg", alt:"")
+					h3.img_titulo 
+						a.title_link(href="") Android apps on Google P
+				li
+					a.img_link(href="") 
+						= image_tag("destacado.jpg", alt:"")
+					h3.img_titulo 
+						a.title_link(href="") Android apps on Google P
+
 
 
 		.works.clear_block
