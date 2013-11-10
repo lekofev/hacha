@@ -1,10 +1,16 @@
 Hacha::Application.routes.draw do
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
-
+  
   root :to => "pages#index"
   match 'proyecto' => 'pages#proyecto'
   match 'nosotros' => 'pages#nosotros'
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
+  # The priority is based upon order of creation:
+  # first created -> highest priority.
+
+
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

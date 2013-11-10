@@ -36,6 +36,7 @@ gem 'jquery-rails', "2.3.0"
 
 # To use debugger
 # gem 'debugger'
-
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
 gem 'slim-rails'
 gem 'thin'
